@@ -1,0 +1,862 @@
+body{
+    font-family: "Lato", sans-serif;
+    margin:0;
+}
+
+%NoFocus{
+    &:focus{
+        outline:none;
+    }
+}
+%DescriptionOfButton {
+    border: none;
+    outline: none;
+  }
+%FlexForWhiteBoxes{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width:100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    margin:0 auto;
+    width:1140px;
+    background-color: #ffffff;
+    display:flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    .brand, .searchForm, img, a{
+        display:flex;
+        align-items: center;
+    }
+    .brand{
+        height:inherit;
+        font-size: 27px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #222222;
+        span{
+            font-weight: 900;
+            color: #f16d7f;
+        }
+    }
+    .searchForm{
+        margin-left:37px;
+        display:flex;
+        .browse{
+            height:38px;
+            width:89px;
+            border-radius: 3px 0 0 3px;
+            background-color: #f5f5f5;
+            border: 1px solid #e6e6e6;
+            font-size: 14px;
+            font-weight: 300;
+            color: #222222;
+            @extend %NoFocus;
+            i{
+                color: #838383;
+            }
+        }
+        input{
+            border: 1px solid #e6e6e6;
+            padding:0;
+            width: 280px;
+            height: 36px;
+            @extend %NoFocus;
+        }
+        .searchImg{
+            @extend %NoFocus;
+            border-radius: 0 3px 3px 0;
+            border: 1px solid #e6e6e6;
+            width: 38px;
+            height: 38px;
+            background-color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            color: #a4a4a4;
+        }
+    }
+    .cartMyAccount{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 349px;
+        .cart{
+            width: 32px;
+            height: 29px;
+            margin-right: 26px;
+
+        }
+            .MyAccount{
+                display:Flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f16d7f;
+                a{
+                    padding:10px 25px 10px 25px;
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #ffffff;
+                }
+        
+            }  
+    }
+}
+.brTopHeader{
+    width: inherit;
+    height: 1px;
+    background-color:#ececec;;
+}
+nav{
+    height: 51px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        display:inline-block;
+        text-decoration: none;
+        padding: 0 7px 0 7px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #222222;
+    } 
+}
+.theBrand{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e8e8;
+    height: 613px;
+    width:inherit;
+    margin-bottom: 98px;
+    .textBrand{
+        width: 475px;
+        border-left: 12px solid #f16d7f;
+        > span:first-child{
+            padding-left: 12px;
+            font-size: 60px;
+            font-weight: 900;
+            color: #222222;
+        }
+        .bottomRawTextBrand{
+            padding-left: 12px;
+            span{
+                font-size: 40px;
+                font-weight: 900;
+            }
+            span:last-child{
+                color: #f16d7f;
+            }
+        }
+    }
+}
+.hotDealBlocks{
+    height: 823px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    @media(max-width:580px){
+        width:inherit;
+    }
+    .TextOne{
+        padding-left:19px;
+        font-size: 18px;
+        font-weight:900;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    .TextTwo{
+        padding-left:19px;
+        font-weight: 900;
+        font-size: 30px;
+        color: #f16d7f;
+    }
+    .ForMenBlock, .ForKids{
+        width: 560px;
+        height: 542px;
+        @media (max-width:560px){
+            width:inherit;
+            background-position: center top;
+            display:flex;
+            align-items: center;
+
+        }
+    }
+    .Accesories, .ForWomanBlock{
+        width: 560px;
+        height: 261px;
+        @media (max-width:560px){
+            width:inherit;
+            background-position: center top;
+            display:flex;
+            align-items: center;
+        }
+    }
+    .hotDealColumnBlock1{
+        height: inherit;
+        width: inherit;
+        margin-right: 20px;
+        .ForMenBlock{
+            background-image: url(images/rectangle_19_1130.jpg);
+            margin-bottom: 20px;
+            overflow:hidden;
+            .whiteBoxForMen{
+                @extend %FlexForWhiteBoxes;
+                width: 175px;
+                height:82px;
+                background-color: #fff;
+                margin-top:25px;
+
+
+            }
+        }
+        .Accesories{
+            background-image: url(images/rectangle_19_copy_3_1144.jpg);
+            overflow: hidden;
+            .whiteBoxAccesories{
+                @extend %FlexForWhiteBoxes;
+                width: 225px;
+                height:82px;
+                background-color: #fff;
+                margin-top:25px;
+                overflow:hidden;
+            }
+            
+        }
+    }
+    .hotDealColumnBlock2{
+        width:inherit;
+        .ForWomanBlock{
+            background-image: url(images/rectangle_19_copy_1136.jpg);
+            margin-bottom: 20px;
+            overflow:hidden;
+            .whiteBoxWoman{
+                @extend %FlexForWhiteBoxes;
+                width: 162px;
+                height: 82px;
+                background-color: #fff;
+                margin-top:25px;
+            }
+        }
+        .ForKids{        
+            overflow:hidden;  
+            .whiteBoxKids{
+                @extend %FlexForWhiteBoxes;
+                width: 180px;
+                height: 82px;
+                background-color: #fff;
+                margin-top:25px;
+                @media (max-width:560px){
+                    margin-top:0;
+                }
+            }      
+            background-image: url(images/rectangle_19_copy_2_1137.jpg);
+        }
+    }     
+}
+.FeaturedItems{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    .Featured{
+        font-size: 30px;
+        font-weight: 700;
+        color: #222222;
+    }
+    .TextUnderFeatured{
+        font-size: 14px;
+        font-weight: 400;
+        color: #9f9f9f;
+    }
+}
+.gridProductsBlock{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 261px 261px 261px 261px;
+    grid-template-rows: 363px 363px;
+    gap:32px;
+    margin-bottom: 56px;
+    .featuredImgWrap {
+        height: 280px;
+        position: relative;
+    }  
+    .featuredBuy {
+        height: inherit;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display:none;
+        position: absolute;
+        button{
+            img{
+                margin-right: 8px;
+            }
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            cursor: pointer;
+            width: 123px;
+            height: 39px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #ffffff;
+            border:1px solid white;
+        }
+    }
+    
+    .GridProduct:hover .featuredBuy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .GridProduct:hover{
+        box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+    }
+    .gridBlockNameAndPrice{
+        height: 83px;
+        width:inherit;
+        flex-direction: column;
+        display:flex;
+        justify-content: center;
+        padding-left:14px;
+    }
+}
+.nameGrid{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.priceGrid{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+.browseProduct{
+    margin-bottom: 113px;
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #f16d7f;
+    padding:18px 19px 19px 24px;
+    border:none;
+    cursor: pointer;
+    i{
+        margin-left: 9px;
+    }
+    &:focus{
+        outline: none;       
+    }
+}
+.forWomen30{
+    background-image: url(images/BlackWoman.jpg);
+    height: 529px;
+    display:flex;
+    width:767px;
+    .Text30Women{
+        width: 293px;
+        height: 100px;
+        margin: 146px 0 0 39px;
+        .whiteBigText{
+            font-size: 53.7px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+        .pinkBigText{
+            color: #f16d7f;
+            font-size: 53.7px;
+            font-weight: 900;
+        }
+        .whiteSmallText{
+            font-size: 32.2px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+    } 
+}
+.forWomenWith3Blocks{
+    display: flex;
+    margin-bottom: 98px;
+}
+.blockWithWomen{
+    display:grid;
+    height: inherit;
+    width: 373px;
+    height: 529px;
+    grid-template-columns: 375px;
+    grid-template-rows: 1fr 1fr 1fr;
+    .miniBlockWithWoman{
+        background-color: #222224;
+        color:white;
+        display:flex;
+        padding: 55px 43px 0 36px;
+        justify-content: space-between; 
+        img{
+            height: 35px;
+            width: 45px;
+        }
+        .textBlackWomanBlock{
+            height: 95px;
+            width: 219px;
+            display: flex;
+            flex-direction: column; 
+        }
+        .headerBlackBlock{
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 21px;
+            padding: 0 1px 0 1px;
+
+        }
+        .textBlackBlock{
+            padding: 0 1px 0 1px;
+            font-size: 14px;
+            font-weight: 300;
+
+        }
+    }
+}
+.subscribeBlock{
+    width:inherit;
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 0.9;
+    background-image: url(images/layer_41_2195.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    .brBetweenTwoBlocks {
+        width: 1px;
+        height: inherit;
+        background-color: #ffffff;
+    }
+    .FirstOfSubscribeBlock {
+        height: inherit;
+        @media(max-width:1024px){
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            margin-top: 111px;
+            float: left;
+            margin-right: 28px;
+            @media(max-width:1024px){
+                float:none;
+                margin: 0 0 100px 0;
+                
+            }
+        }
+        .quote {
+        overflow: hidden;
+        margin-top: 111px;
+        margin-right: 72px;
+        @media(max-width:1024px){
+            margin-top:0;
+            margin-right: 0;
+        }
+            .quoteText {
+                width: 386px;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                font-style: italic;
+                letter-spacing: 0.025em;
+                color: #222224;
+                margin-bottom: 19px;
+                @media(max-width:1024px){
+                    padding-left: 15px;
+                    width: 235px;
+                }
+            }
+            .quoteSurname {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 700;
+                letter-spacing: 0.025em;
+                color: #f16d7f;
+            }
+            .quoteName {
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: 300;
+                color: #222224;
+            }
+            .blocksOfQuote {
+                margin-top: 44px;
+                display: flex;
+                width: 140px;
+                height: 4px;
+                .greyBlock {
+                    height: inherit;
+                    width: 38px;
+                    background-color: #d6d6d6;
+                }
+                .pinkBlock {
+                    height: inherit;
+                    width: 38px;
+                    background-color: #f16d7f;
+                    margin: 0 13px 0 13px;
+                }
+            }
+        }
+    }
+    .SecondOfSubscribeBlock {
+        height: inherit;
+        display:flex;
+        align-items: center;
+        .SubscribeBlockButton {
+            @media(max-width:1024px){
+                margin-left: 0;
+                margin-top: 0;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }       
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: inherit;
+            height:inherit;
+            margin-left: 92px;
+            .SubscribeMainSubscribeText {
+                font-size: 24px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.025em;
+                color: #222224;
+            }
+            .LessBigSubscribeText {
+                font-size: 14px;
+                line-height: 24px;
+                text-transform: uppercase;
+                @media (min-width:560px){
+                    text-align: center;
+                }
+            }
+            .SubscribeBigButton {
+                display: flex;               
+                .TextOfSubscribeButton {
+                    width: inherit;
+                    height: 40px;
+                    padding-left: 28px;
+                    background-color: #e1e1e1;
+                    border-top-left-radius: 23px;
+                    border-bottom-left-radius: 23px;
+                    @extend %DescriptionOfButton;
+                    &[type="text"] {
+                        opacity: 0.67;
+                        font-size: 14px;
+                        line-height: 54px;
+                        font-weight: 400;
+                        letter-spacing: 0.025em;
+                        color: #222224;
+                    }
+                }
+                .SubscribeButton{
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    line-height: 54px;
+                    font-weight: 400;
+                    letter-spacing: 0.025em;
+                    color: #ffffff;
+                    @extend %DescriptionOfButton;
+                    width: 104px;
+                    height: 42px;
+                    background-color: #f16d7f;
+                    border-radius: 0 23px 23px 0;
+                }
+                @media(max-width:1024px){
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    .TextOfSubscribeButton{
+                        border-radius: 23px;
+                        border-radius: 23px;
+                        margin: 10px 0 10px 0;
+                    }
+                    .SubscribeButton{
+                        border-radius: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+.columnWrap{
+    display:flex;
+    justify-content: space-between;
+    @media (max-width:500px){
+        flex-direction: column;
+    }
+}
+.wrapAboutBrand {
+    @media (max-width:939px){
+        flex-direction: column;
+        align-items:center;
+    }
+    width:inherit;
+    display:flex;
+    justify-content: center;
+    .logo,
+    .aboutBrandText {
+      display: inline-block;
+    }
+    .brandInfo {
+      width: 428px;
+      @media (max-width:900px){
+          float:none;
+      }
+      margin-top: 109px;
+      .aboutBrandText {
+        margin-top: 29px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.025em;
+        color: #898989 !important;
+      }
+    }
+}
+  .homeShopAbout li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 59px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+  }
+  .homeShopAbout li {
+    list-style-type: none;
+    a:hover {
+      color: black;
+    }
+  }
+  .column {
+    display: inline-block;
+    margin-top: 127px;
+    @media (max-width:900px){
+        margin-top: 50px;
+    }
+    span {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 700;
+      letter-spacing: 0.025em;
+      color: #f16d7f;
+      margin-left: 37px;
+    }
+  }
+footer{
+    width:inherit;
+    height: 79px;
+    background-color: #e6e6e6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+        padding-left: 228px;
+        font-size: 16px;
+        line-height: 42px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #7a7a7a;  
+    }
+    .footerLinkWrap{
+        display:grid;
+        grid-template-columns: 32px 32px 32px 32px 32px;
+        gap: 10px;
+        padding-right: 228px;
+        .footerLinkBlock {
+            width: 32px;
+            height: 32px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #b2b2b2;
+            &:hover {
+                background-color: #f16d7f;
+                color: #f7f7f8;
+            }
+        }
+            a {
+                text-decoration: none;
+                display: inline-block;
+                &:not(:last-child) {
+                    margin-right: 8px;
+                }
+            }
+    }    
+    @media (max-width:910px){
+        height:inherit;
+        flex-direction: column;
+        .footerLinkWrap{
+            padding-right: 0;
+        }
+        span{
+            padding-left: 0;
+        }
+    }
+}
+
+
+
+@media(max-width:550px){
+    .subscribeBlock{
+        flex-direction: column;
+        .FirstOfSubscribeBlock{
+            order:2;
+            overflow:hidden;
+            .quote{
+                height: 219px;
+            }
+            .blocksOfQuote{
+                display:none;
+            }
+        }
+        .SecondOfSubscribeBlock{
+            order:1;
+            overflow:hidden;
+            display:flex;
+            justify-content: center;
+           .SubscribeBlockButton{
+            height:auto;
+           }
+
+
+        }
+        .brBetweenTwoBlocks{
+            display:none;
+        }
+    }
+}
+@media(max-width:1140px){
+    .forWomenWith3Blocks{
+        flex-direction: column;
+        background-color: black;
+        .blockWithWomen{
+            grid-template-columns: 767px;
+            width:inherit;
+            .miniBlockWithWoman{
+                justify-content: center;
+                padding:50px 0 0 0;
+                .textBlackWomanBlock{
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+    .forWomen30{
+        width:inherit;
+    }
+
+    .theBrand{
+        height:120px;
+        img{
+            display:none;
+        }
+        .textBrand{
+            margin:0 auto;
+        }
+    }
+    .hotDealBlocks{
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        .hotDealColumnBlock1{
+            margin: 0 0 20px 0;
+        }
+    }
+    .gridProductsBlock{
+        grid-template-columns:261px 261px;
+        grid-template-rows:363px 363px 363px 363px;
+        gap: 60px;
+        .nameGrid{
+            font-size:16px;
+        }
+        .priceGrid{
+            font-size: 20px;
+        }
+    }
+    header{
+        flex-direction: column;
+        width: inherit;
+        .searchForm{
+            margin-top:20px;
+        }
+        .cartMyAccount{
+            margin: 20px 0 10px 0;
+        }
+    }
+}
+@media(max-width:600px){
+    .gridProductsBlock{
+        grid-template-columns: 261px;
+        grid-template-rows:363px 363px 363px 363px 363px 363px 363px 363px;
+    }
+    
+}
+@media(max-width:500px){
+    .theBrand{
+        height: inherit;
+    }
+    nav{
+        flex-direction: column;
+        height: inherit;
+        align-items: flex-start;
+        padding-bottom:5px;
+        a{
+            padding-top:10px;
+        } 
+    }
+}
+@media(max-width:767px){
+    .forWomenWith3Blocks{
+        width:inherit;
+        .blockWithWomen{
+            grid-template-columns: 450px;
+            justify-content: center;
+        }
+    }   
+}
+@media(max-width:460px){
+    .forWomenWith3Blocks{
+        .blockWithWomen{
+            grid-template-columns: 270px;
+        }
+    }
+    .wrapAboutBrand .brandInfo {
+        height:inherit;
+        width:inherit;
+    }
+}
+@media (max-width:560px){
+    .searchForm{
+        flex-direction: column;
+        margin-left:0;
+    }
+    
+}

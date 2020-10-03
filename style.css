@@ -1,0 +1,1223 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+header .searchForm .browse:focus, header .searchForm input:focus, header .searchForm .searchImg:focus {
+  outline: none;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .TextOfSubscribeButton, .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .SubscribeButton {
+  border: none;
+  outline: none;
+}
+
+.hotDealBlocks .hotDealColumnBlock1 .ForMenBlock .whiteBoxForMen, .hotDealBlocks .hotDealColumnBlock1 .Accesories .whiteBoxAccesories, .hotDealBlocks .hotDealColumnBlock2 .ForWomanBlock .whiteBoxWoman, .hotDealBlocks .hotDealColumnBlock2 .ForKids .whiteBoxKids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  margin: 0 auto;
+  width: 1140px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .brand, header .searchForm, header img, header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .brand {
+  height: inherit;
+  font-size: 27px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+header .brand span {
+  font-weight: 900;
+  color: #f16d7f;
+}
+
+header .searchForm {
+  margin-left: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .searchForm .browse {
+  height: 38px;
+  width: 89px;
+  border-radius: 3px 0 0 3px;
+  background-color: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222222;
+}
+
+header .searchForm .browse i {
+  color: #838383;
+}
+
+header .searchForm input {
+  border: 1px solid #e6e6e6;
+  padding: 0;
+  width: 280px;
+  height: 36px;
+}
+
+header .searchForm .searchImg {
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #e6e6e6;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  color: #a4a4a4;
+}
+
+header .cartMyAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 349px;
+}
+
+header .cartMyAccount .cart {
+  width: 32px;
+  height: 29px;
+  margin-right: 26px;
+}
+
+header .cartMyAccount .MyAccount {
+  display: Flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f16d7f;
+}
+
+header .cartMyAccount .MyAccount a {
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.brTopHeader {
+  width: inherit;
+  height: 1px;
+  background-color: #ececec;
+}
+
+nav {
+  height: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 7px 0 7px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.theBrand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e8e8e8;
+  height: 613px;
+  width: inherit;
+  margin-bottom: 98px;
+}
+
+.theBrand .textBrand {
+  width: 475px;
+  border-left: 12px solid #f16d7f;
+}
+
+.theBrand .textBrand > span:first-child {
+  padding-left: 12px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #222222;
+}
+
+.theBrand .textBrand .bottomRawTextBrand {
+  padding-left: 12px;
+}
+
+.theBrand .textBrand .bottomRawTextBrand span {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.theBrand .textBrand .bottomRawTextBrand span:last-child {
+  color: #f16d7f;
+}
+
+.hotDealBlocks {
+  height: 823px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 580px) {
+  .hotDealBlocks {
+    width: inherit;
+  }
+}
+
+.hotDealBlocks .TextOne {
+  padding-left: 19px;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.hotDealBlocks .TextTwo {
+  padding-left: 19px;
+  font-weight: 900;
+  font-size: 30px;
+  color: #f16d7f;
+}
+
+.hotDealBlocks .ForMenBlock, .hotDealBlocks .ForKids {
+  width: 560px;
+  height: 542px;
+}
+
+@media (max-width: 560px) {
+  .hotDealBlocks .ForMenBlock, .hotDealBlocks .ForKids {
+    width: inherit;
+    background-position: center top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.hotDealBlocks .Accesories, .hotDealBlocks .ForWomanBlock {
+  width: 560px;
+  height: 261px;
+}
+
+@media (max-width: 560px) {
+  .hotDealBlocks .Accesories, .hotDealBlocks .ForWomanBlock {
+    width: inherit;
+    background-position: center top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.hotDealBlocks .hotDealColumnBlock1 {
+  height: inherit;
+  width: inherit;
+  margin-right: 20px;
+}
+
+.hotDealBlocks .hotDealColumnBlock1 .ForMenBlock {
+  background-image: url(images/rectangle_19_1130.jpg);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.hotDealBlocks .hotDealColumnBlock1 .ForMenBlock .whiteBoxForMen {
+  width: 175px;
+  height: 82px;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.hotDealBlocks .hotDealColumnBlock1 .Accesories {
+  background-image: url(images/rectangle_19_copy_3_1144.jpg);
+  overflow: hidden;
+}
+
+.hotDealBlocks .hotDealColumnBlock1 .Accesories .whiteBoxAccesories {
+  width: 225px;
+  height: 82px;
+  background-color: #fff;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.hotDealBlocks .hotDealColumnBlock2 {
+  width: inherit;
+}
+
+.hotDealBlocks .hotDealColumnBlock2 .ForWomanBlock {
+  background-image: url(images/rectangle_19_copy_1136.jpg);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.hotDealBlocks .hotDealColumnBlock2 .ForWomanBlock .whiteBoxWoman {
+  width: 162px;
+  height: 82px;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.hotDealBlocks .hotDealColumnBlock2 .ForKids {
+  overflow: hidden;
+  background-image: url(images/rectangle_19_copy_2_1137.jpg);
+}
+
+.hotDealBlocks .hotDealColumnBlock2 .ForKids .whiteBoxKids {
+  width: 180px;
+  height: 82px;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+@media (max-width: 560px) {
+  .hotDealBlocks .hotDealColumnBlock2 .ForKids .whiteBoxKids {
+    margin-top: 0;
+  }
+}
+
+.FeaturedItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.FeaturedItems .Featured {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.FeaturedItems .TextUnderFeatured {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.gridProductsBlock {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 261px 261px 261px 261px;
+      grid-template-columns: 261px 261px 261px 261px;
+  -ms-grid-rows: 363px 363px;
+      grid-template-rows: 363px 363px;
+  gap: 32px;
+  margin-bottom: 56px;
+}
+
+.gridProductsBlock .featuredImgWrap {
+  height: 280px;
+  position: relative;
+}
+
+.gridProductsBlock .featuredBuy {
+  height: inherit;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+}
+
+.gridProductsBlock .featuredBuy button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  cursor: pointer;
+  width: 123px;
+  height: 39px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+.gridProductsBlock .featuredBuy button img {
+  margin-right: 8px;
+}
+
+.gridProductsBlock .GridProduct:hover .featuredBuy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gridProductsBlock .GridProduct:hover {
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gridProductsBlock .gridBlockNameAndPrice {
+  height: 83px;
+  width: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 14px;
+}
+
+.nameGrid {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.priceGrid {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.browseProduct {
+  margin-bottom: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #f16d7f;
+  padding: 18px 19px 19px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.browseProduct i {
+  margin-left: 9px;
+}
+
+.browseProduct:focus {
+  outline: none;
+}
+
+.forWomen30 {
+  background-image: url(images/BlackWoman.jpg);
+  height: 529px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 767px;
+}
+
+.forWomen30 .Text30Women {
+  width: 293px;
+  height: 100px;
+  margin: 146px 0 0 39px;
+}
+
+.forWomen30 .Text30Women .whiteBigText {
+  font-size: 53.7px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.forWomen30 .Text30Women .pinkBigText {
+  color: #f16d7f;
+  font-size: 53.7px;
+  font-weight: 900;
+}
+
+.forWomen30 .Text30Women .whiteSmallText {
+  font-size: 32.2px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.forWomenWith3Blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 98px;
+}
+
+.blockWithWomen {
+  display: -ms-grid;
+  display: grid;
+  height: inherit;
+  width: 373px;
+  height: 529px;
+  -ms-grid-columns: 375px;
+      grid-template-columns: 375px;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.blockWithWomen .miniBlockWithWoman {
+  background-color: #222224;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 55px 43px 0 36px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blockWithWomen .miniBlockWithWoman img {
+  height: 35px;
+  width: 45px;
+}
+
+.blockWithWomen .miniBlockWithWoman .textBlackWomanBlock {
+  height: 95px;
+  width: 219px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blockWithWomen .miniBlockWithWoman .headerBlackBlock {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  padding: 0 1px 0 1px;
+}
+
+.blockWithWomen .miniBlockWithWoman .textBlackBlock {
+  padding: 0 1px 0 1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.subscribeBlock {
+  width: inherit;
+  height: 438px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  opacity: 0.9;
+  background-image: url(images/layer_41_2195.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribeBlock .brBetweenTwoBlocks {
+  width: 1px;
+  height: inherit;
+  background-color: #ffffff;
+}
+
+.subscribeBlock .FirstOfSubscribeBlock {
+  height: inherit;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .FirstOfSubscribeBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.subscribeBlock .FirstOfSubscribeBlock img {
+  margin-top: 111px;
+  float: left;
+  margin-right: 28px;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .FirstOfSubscribeBlock img {
+    float: none;
+    margin: 0 0 100px 0;
+  }
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote {
+  overflow: hidden;
+  margin-top: 111px;
+  margin-right: 72px;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .FirstOfSubscribeBlock .quote {
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .quoteText {
+  width: 386px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  color: #222224;
+  margin-bottom: 19px;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .FirstOfSubscribeBlock .quote .quoteText {
+    padding-left: 15px;
+    width: 235px;
+  }
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .quoteSurname {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .quoteName {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222224;
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .blocksOfQuote {
+  margin-top: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  height: 4px;
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .blocksOfQuote .greyBlock {
+  height: inherit;
+  width: 38px;
+  background-color: #d6d6d6;
+}
+
+.subscribeBlock .FirstOfSubscribeBlock .quote .blocksOfQuote .pinkBlock {
+  height: inherit;
+  width: 38px;
+  background-color: #f16d7f;
+  margin: 0 13px 0 13px;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: inherit;
+  height: inherit;
+  margin-left: 92px;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton {
+    margin-left: 0;
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeMainSubscribeText {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222224;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .LessBigSubscribeText {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 560px) {
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .LessBigSubscribeText {
+    text-align: center;
+  }
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .TextOfSubscribeButton {
+  width: inherit;
+  height: 40px;
+  padding-left: 28px;
+  background-color: #e1e1e1;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .TextOfSubscribeButton[type="text"] {
+  opacity: 0.67;
+  font-size: 14px;
+  line-height: 54px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #222224;
+}
+
+.subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .SubscribeButton {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  line-height: 54px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  width: 104px;
+  height: 42px;
+  background-color: #f16d7f;
+  border-radius: 0 23px 23px 0;
+}
+
+@media (max-width: 1024px) {
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .TextOfSubscribeButton {
+    border-radius: 23px;
+    border-radius: 23px;
+    margin: 10px 0 10px 0;
+  }
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton .SubscribeBigButton .SubscribeButton {
+    border-radius: 23px;
+  }
+}
+
+.columnWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .columnWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.wrapAboutBrand {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 939px) {
+  .wrapAboutBrand {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.wrapAboutBrand .logo,
+.wrapAboutBrand .aboutBrandText {
+  display: inline-block;
+}
+
+.wrapAboutBrand .brandInfo {
+  width: 428px;
+  margin-top: 109px;
+}
+
+@media (max-width: 900px) {
+  .wrapAboutBrand .brandInfo {
+    float: none;
+  }
+}
+
+.wrapAboutBrand .brandInfo .aboutBrandText {
+  margin-top: 29px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #898989 !important;
+}
+
+.homeShopAbout li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 59px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #898989;
+}
+
+.homeShopAbout li {
+  list-style-type: none;
+}
+
+.homeShopAbout li a:hover {
+  color: black;
+}
+
+.column {
+  display: inline-block;
+  margin-top: 127px;
+}
+
+@media (max-width: 900px) {
+  .column {
+    margin-top: 50px;
+  }
+}
+
+.column span {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+  margin-left: 37px;
+}
+
+footer {
+  width: inherit;
+  height: 79px;
+  background-color: #e6e6e6;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer span {
+  padding-left: 228px;
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #7a7a7a;
+}
+
+footer .footerLinkWrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 32px 32px 32px 32px 32px;
+      grid-template-columns: 32px 32px 32px 32px 32px;
+  gap: 10px;
+  padding-right: 228px;
+}
+
+footer .footerLinkWrap .footerLinkBlock {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b2b2b2;
+}
+
+footer .footerLinkWrap .footerLinkBlock:hover {
+  background-color: #f16d7f;
+  color: #f7f7f8;
+}
+
+footer .footerLinkWrap a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer .footerLinkWrap a:not(:last-child) {
+  margin-right: 8px;
+}
+
+@media (max-width: 910px) {
+  footer {
+    height: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footerLinkWrap {
+    padding-right: 0;
+  }
+  footer span {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .subscribeBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscribeBlock .FirstOfSubscribeBlock {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    overflow: hidden;
+  }
+  .subscribeBlock .FirstOfSubscribeBlock .quote {
+    height: 219px;
+  }
+  .subscribeBlock .FirstOfSubscribeBlock .blocksOfQuote {
+    display: none;
+  }
+  .subscribeBlock .SecondOfSubscribeBlock {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribeBlock .SecondOfSubscribeBlock .SubscribeBlockButton {
+    height: auto;
+  }
+  .subscribeBlock .brBetweenTwoBlocks {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .forWomenWith3Blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+  }
+  .forWomenWith3Blocks .blockWithWomen {
+    -ms-grid-columns: 767px;
+        grid-template-columns: 767px;
+    width: inherit;
+  }
+  .forWomenWith3Blocks .blockWithWomen .miniBlockWithWoman {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px 0 0 0;
+  }
+  .forWomenWith3Blocks .blockWithWomen .miniBlockWithWoman .textBlackWomanBlock {
+    margin-left: 50px;
+  }
+  .forWomen30 {
+    width: inherit;
+  }
+  .theBrand {
+    height: 120px;
+  }
+  .theBrand img {
+    display: none;
+  }
+  .theBrand .textBrand {
+    margin: 0 auto;
+  }
+  .hotDealBlocks {
+    height: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hotDealBlocks .hotDealColumnBlock1 {
+    margin: 0 0 20px 0;
+  }
+  .gridProductsBlock {
+    -ms-grid-columns: 261px 261px;
+        grid-template-columns: 261px 261px;
+    -ms-grid-rows: 363px 363px 363px 363px;
+        grid-template-rows: 363px 363px 363px 363px;
+    gap: 60px;
+  }
+  .gridProductsBlock .nameGrid {
+    font-size: 16px;
+  }
+  .gridProductsBlock .priceGrid {
+    font-size: 20px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: inherit;
+  }
+  header .searchForm {
+    margin-top: 20px;
+  }
+  header .cartMyAccount {
+    margin: 20px 0 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .gridProductsBlock {
+    -ms-grid-columns: 261px;
+        grid-template-columns: 261px;
+    -ms-grid-rows: 363px 363px 363px 363px 363px 363px 363px 363px;
+        grid-template-rows: 363px 363px 363px 363px 363px 363px 363px 363px;
+  }
+}
+
+@media (max-width: 500px) {
+  .theBrand {
+    height: inherit;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: inherit;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-bottom: 5px;
+  }
+  nav a {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .forWomenWith3Blocks {
+    width: inherit;
+  }
+  .forWomenWith3Blocks .blockWithWomen {
+    -ms-grid-columns: 450px;
+        grid-template-columns: 450px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .forWomenWith3Blocks .blockWithWomen {
+    -ms-grid-columns: 270px;
+        grid-template-columns: 270px;
+  }
+  .wrapAboutBrand .brandInfo {
+    height: inherit;
+    width: inherit;
+  }
+}
+
+@media (max-width: 560px) {
+  .searchForm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
